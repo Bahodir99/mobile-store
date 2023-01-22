@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.form{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.inp{
+    width: 320px;
+    height: 40px;
+    padding: 0 15px;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.121);
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.381); */
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+    transition: all ease 0.8s;
+}
+.inp:hover{
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.381);
+
+}
+
+.btn{
+    padding: 11px 32px;
+    border-radius: 24px;
+    background:linear-gradient(45deg, rgba(0, 128, 0, 0.479) , rgba(0, 0, 255, 0.2), rgba(255, 0, 0, 0.302));
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.8s;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+.btn:hover{
+    box-shadow: 0px 0px 7px 5px rgba(128, 128, 128, 0.381);
+    color: red;
+}
+
+.list{
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transform: translateY(-500px);
+    transition: all ease 1s;
+    list-style-type: none;
+}
+
+.list_open{
+    transform: translateY(100px);
+}
+
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 400px;
+    height: 600px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 5px rgba(128, 128, 128, 0.381);
+    transition: all ease 1s;   
+    cursor: pointer;
+}
+.card:hover{
+    /* transform: translateX(50%); */
+    transform: scale(90%);
+    background-color: greenyellow;
+}
+.marka{
+    font-size: 20px;
+    font-weight: bolder;
+    color: crimson;
+}
+
+.model{
+    font-size: 16px;
+    color: red;
+    font-weight: bolder;
+}
+
+.color{
+    font-weight: bolder;
+    font-size: 16px;
+    color: red;
+}
+
+.card img{
+    width: 350px;
+    height: 400px;
+    object-fit: contain;
+}
